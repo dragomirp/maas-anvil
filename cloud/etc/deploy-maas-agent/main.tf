@@ -18,7 +18,7 @@ terraform {
   required_providers {
     juju = {
       source  = "juju/juju"
-      version = "= 0.11.0"
+      version = "= 0.15.1"
     }
   }
 
@@ -39,7 +39,7 @@ resource "juju_application" "maas-agent" {
     name     = "maas-agent"
     channel  = var.charm_maas_agent_channel
     revision = var.charm_maas_agent_revision
-    base     = "ubuntu@22.04"
+    base     = "ubuntu@24.04"
   }
 
   config = var.charm_maas_agent_config

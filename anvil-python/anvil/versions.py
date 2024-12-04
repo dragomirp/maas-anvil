@@ -15,7 +15,7 @@
 
 MAAS_REGION_CHANNEL = "3.5/edge"
 MAAS_AGENT_CHANNEL = "3.5/edge"
-POSTGRESQL_CHANNEL = "14/stable"
+POSTGRESQL_CHANNEL = "16/edge"
 HAPROXY_CHANNEL = "latest/stable"
 KEEPALIVED_CHANNEL = "latest/stable"
 

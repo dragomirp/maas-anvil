@@ -19,8 +19,8 @@ from rich.console import Console
 console = Console()
 
 
-JUJU_CHANNEL = "3.4/stable"
-SUPPORTED_RELEASE = "jammy"
+JUJU_CHANNEL = "3.6/stable"
+SUPPORTED_RELEASE = "noble"
 
 PREPARE_NODE_TEMPLATE = f"""#!/bin/bash
 [ $(lsb_release -sc) != '{SUPPORTED_RELEASE}' ] && \
